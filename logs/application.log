@@ -1,0 +1,556 @@
+2024-11-21T19:16:19.052+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 5025 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:16:19.056+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:16:19.084+08:00  INFO 5025 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T19:16:19.085+08:00  INFO 5025 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T19:16:19.467+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:16:19.473+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:16:19.474+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:16:19.493+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:16:19.493+08:00  INFO 5025 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2024-11-21T19:16:19.537+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:16:19.640+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:16:19.657+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:16:19.662+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.797 seconds (process running for 0.95)
+2024-11-21T19:16:22.928+08:00  INFO 5025 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T19:16:22.929+08:00  INFO 5025 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T19:16:22.929+08:00  INFO 5025 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-11-21T19:16:44.050+08:00  INFO 5025 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:16:44.087+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 5025 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:16:44.087+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:16:44.166+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:16:44.168+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:16:44.168+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:16:44.171+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:16:44.172+08:00  INFO 5025 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2024-11-21T19:16:44.185+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:16:44.212+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:16:44.217+08:00  INFO 5025 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:16:44.220+08:00  INFO 5025 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.144 seconds (process running for 25.507)
+2024-11-21T19:16:44.222+08:00  INFO 5025 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:16:49.735+08:00  INFO 5485 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 5485 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:16:49.736+08:00  INFO 5485 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:16:49.763+08:00  INFO 5485 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T19:16:49.763+08:00  INFO 5485 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T19:16:50.166+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:16:50.173+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:16:50.173+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:16:50.192+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:16:50.192+08:00  INFO 5485 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 428 ms
+2024-11-21T19:16:50.238+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:16:50.336+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:16:50.355+08:00  INFO 5485 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:16:50.360+08:00  INFO 5485 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.816 seconds (process running for 0.965)
+2024-11-21T19:16:52.035+08:00  INFO 5485 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T19:16:52.035+08:00  INFO 5485 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T19:16:52.036+08:00  INFO 5485 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T19:18:11.274+08:00  INFO 6305 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 6305 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:18:11.275+08:00  INFO 6305 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:18:11.303+08:00  INFO 6305 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T19:18:11.303+08:00  INFO 6305 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T19:18:11.689+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:18:11.694+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:18:11.695+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:18:11.713+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:18:11.713+08:00  INFO 6305 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 410 ms
+2024-11-21T19:18:11.761+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:18:11.859+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:18:11.877+08:00  INFO 6305 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:18:11.882+08:00  INFO 6305 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.792 seconds (process running for 0.953)
+2024-11-21T19:18:13.809+08:00  INFO 6305 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T19:18:13.809+08:00  INFO 6305 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T19:18:13.810+08:00  INFO 6305 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T19:20:20.743+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:20:20.744+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:20:20.772+08:00  INFO 7425 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T19:20:20.772+08:00  INFO 7425 --- [spring-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T19:20:21.174+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:20:21.186+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:20:21.187+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:20:21.209+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:20:21.209+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 437 ms
+2024-11-21T19:20:21.261+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:20:21.366+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:20:21.384+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:20:21.389+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.83 seconds (process running for 0.98)
+2024-11-21T19:20:23.722+08:00  INFO 7425 --- [spring-demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T19:20:23.722+08:00  INFO 7425 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T19:20:23.723+08:00  INFO 7425 --- [spring-demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T19:20:44.788+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:20:44.824+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:20:44.825+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:20:44.899+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:20:44.900+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:20:44.900+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:20:44.903+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:20:44.903+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2024-11-21T19:20:44.915+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:20:44.940+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:20:44.943+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:20:44.946+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.134 seconds (process running for 24.537)
+2024-11-21T19:20:44.947+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:20:51.343+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:20:51.373+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:20:51.373+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:20:51.432+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:20:51.433+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:20:51.433+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:20:51.436+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:20:51.436+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 62 ms
+2024-11-21T19:20:51.439+08:00  WARN 7425 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+2024-11-21T19:20:51.439+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T19:20:51.442+08:00  INFO 7425 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T19:20:51.449+08:00 ERROR 7425 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.HomeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4b76d27]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Model
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.14.jar:6.1.14]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Model
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-11-21T19:21:06.869+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:06.869+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:06.929+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:06.930+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:06.930+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:06.933+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:06.934+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 65 ms
+2024-11-21T19:21:06.936+08:00  WARN 7425 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+2024-11-21T19:21:06.937+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T19:21:06.939+08:00  INFO 7425 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T19:21:06.940+08:00 ERROR 7425 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.HomeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@64989268]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Model
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.14.jar:6.1.14]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Model
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-11-21T19:21:08.352+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:08.352+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:08.405+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:08.406+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:08.406+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:08.408+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:08.409+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 56 ms
+2024-11-21T19:21:08.413+08:00  WARN 7425 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+2024-11-21T19:21:08.413+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T19:21:08.415+08:00  INFO 7425 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T19:21:08.416+08:00 ERROR 7425 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [sg.edu.ntu.spring_demo.HomeController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2fceeb9f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Model
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.14.jar:6.1.14]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Model
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2024-11-21T19:21:21.850+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:21.851+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:21.900+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:21.900+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:21.901+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:21.903+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:21.903+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 52 ms
+2024-11-21T19:21:21.908+08:00  WARN 7425 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [/home/azwong2366/myprojects/spring-demo/target/classes/sg/edu/ntu/spring_demo/HomeController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+2024-11-21T19:21:21.908+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T19:21:21.910+08:00  INFO 7425 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T19:21:21.911+08:00 ERROR 7425 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [/home/azwong2366/myprojects/spring-demo/target/classes/sg/edu/ntu/spring_demo/HomeController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+	at sg.edu.ntu.spring_demo.HomeController.<init>(HomeController.java:7) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 24 common frames omitted
+
+2024-11-21T19:21:25.725+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:25.725+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:25.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:25.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:25.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:25.782+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:25.782+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 56 ms
+2024-11-21T19:21:25.785+08:00  WARN 7425 --- [spring-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [/home/azwong2366/myprojects/spring-demo/target/classes/sg/edu/ntu/spring_demo/HomeController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+2024-11-21T19:21:25.785+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-11-21T19:21:25.788+08:00  INFO 7425 --- [spring-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21T19:21:25.789+08:00 ERROR 7425 --- [spring-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'homeController' defined in file [/home/azwong2366/myprojects/spring-demo/target/classes/sg/edu/ntu/spring_demo/HomeController.class]: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at sg.edu.ntu.spring_demo.SpringDemoApplication.main(SpringDemoApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [sg.edu.ntu.spring_demo.HomeController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error, insert "... VariableDeclaratorId" to complete FormalParameterList
+	Syntax error on token "}", delete this token
+
+	at sg.edu.ntu.spring_demo.HomeController.<init>(HomeController.java:7) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195) ~[spring-beans-6.1.14.jar:6.1.14]
+	... 24 common frames omitted
+
+2024-11-21T19:21:28.200+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:28.201+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:28.268+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:28.269+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:28.269+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:28.271+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:28.271+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 70 ms
+2024-11-21T19:21:28.282+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:28.300+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:28.303+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:28.305+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.112 seconds (process running for 67.896)
+2024-11-21T19:21:28.306+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:29.701+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:29.729+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:29.729+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:29.778+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:29.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:29.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:29.781+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:29.781+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 51 ms
+2024-11-21T19:21:29.789+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:29.804+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:29.808+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:29.810+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.088 seconds (process running for 69.401)
+2024-11-21T19:21:29.811+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:39.208+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:39.235+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:39.235+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:39.279+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:39.279+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:39.280+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:39.281+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:39.281+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 45 ms
+2024-11-21T19:21:39.289+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:39.305+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:39.308+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:39.310+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.082 seconds (process running for 78.902)
+2024-11-21T19:21:39.311+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:42.706+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:42.734+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:42.734+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:42.778+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:42.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:42.779+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:42.781+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:42.782+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 47 ms
+2024-11-21T19:21:42.790+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:42.806+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:42.808+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:42.810+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.084 seconds (process running for 82.402)
+2024-11-21T19:21:42.811+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:52.218+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:52.248+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:52.248+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:52.298+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:52.298+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:52.299+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:52.301+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:52.301+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 52 ms
+2024-11-21T19:21:52.312+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:52.327+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:52.330+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:52.332+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.091 seconds (process running for 91.924)
+2024-11-21T19:21:52.333+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:54.728+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:54.757+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:54.757+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:54.802+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:54.803+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:54.803+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:54.805+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:54.805+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 48 ms
+2024-11-21T19:21:54.817+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:54.831+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:54.833+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:54.835+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.086 seconds (process running for 94.427)
+2024-11-21T19:21:54.836+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:21:57.233+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:21:57.262+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:21:57.262+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:21:57.306+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:21:57.306+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:21:57.306+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:21:57.308+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:21:57.309+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 46 ms
+2024-11-21T19:21:57.317+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:21:57.330+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:21:57.334+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:21:57.336+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.081 seconds (process running for 96.927)
+2024-11-21T19:21:57.336+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:01.733+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:01.767+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:01.767+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:01.815+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:01.815+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:01.815+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:01.818+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:01.818+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50 ms
+2024-11-21T19:22:01.825+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:01.840+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:01.843+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:01.845+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.087 seconds (process running for 101.436)
+2024-11-21T19:22:01.846+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:05.242+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:05.272+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:05.272+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:05.323+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:05.324+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:05.324+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:05.326+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:05.326+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 54 ms
+2024-11-21T19:22:05.333+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:05.349+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:05.352+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:05.354+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.091 seconds (process running for 104.945)
+2024-11-21T19:22:05.355+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:08.151+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:08.179+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:08.180+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:08.232+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:08.233+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:08.233+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:08.235+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:08.235+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 55 ms
+2024-11-21T19:22:08.247+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:08.262+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:08.266+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:08.268+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.096 seconds (process running for 107.86)
+2024-11-21T19:22:08.269+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:10.664+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:10.692+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:10.692+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:10.738+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:10.738+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:10.739+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:10.741+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:10.741+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 49 ms
+2024-11-21T19:22:10.748+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:10.762+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:10.765+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:10.766+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.081 seconds (process running for 110.358)
+2024-11-21T19:22:10.767+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:13.163+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:13.191+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:13.191+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:13.238+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:13.238+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:13.238+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:13.240+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:13.240+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 48 ms
+2024-11-21T19:22:13.248+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:13.263+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:13.267+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:13.268+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.083 seconds (process running for 112.859)
+2024-11-21T19:22:13.269+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-21T19:22:14.664+08:00  INFO 7425 --- [spring-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-21T19:22:14.691+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Starting SpringDemoApplication using Java 17.0.13 with PID 7425 (/home/azwong2366/myprojects/spring-demo/target/classes started by azwong2366 in /home/azwong2366/myprojects/spring-demo)
+2024-11-21T19:22:14.691+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T19:22:14.735+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T19:22:14.735+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T19:22:14.735+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T19:22:14.737+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-11-21T19:22:14.737+08:00  INFO 7425 --- [spring-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 45 ms
+2024-11-21T19:22:14.745+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-21T19:22:14.758+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T19:22:14.762+08:00  INFO 7425 --- [spring-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-21T19:22:14.764+08:00  INFO 7425 --- [spring-demo] [restartedMain] s.e.n.spring_demo.SpringDemoApplication  : Started SpringDemoApplication in 0.079 seconds (process running for 114.355)
+2024-11-21T19:22:14.764+08:00  INFO 7425 --- [spring-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
